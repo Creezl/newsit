@@ -1,0 +1,33 @@
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+h1 {
+  font-size: 50px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+}
+body {
+   /* background: #000 url(fon.jpg); /* Фоновый цвет и фоновый рисунок*/
+    
+    background-attachment: fixed; /* Фон страницы фиксируется */
+    background-repeat: repeat-x; /* Изображение повторяется по горизонтали */
+}
+.parallax-image {
+  background: url("fon.jpg");
+  min-height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
